@@ -1,4 +1,4 @@
-# Ark Synology
+# Synology Ark: Survival Evolved 
 
 The easiest way to install an Ark: Survival Evolution on your Synology DiskStation.
 
