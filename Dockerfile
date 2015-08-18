@@ -1,9 +1,8 @@
 FROM ubuntu:latest
 
-MAINTAINER MikeBeeTV
+MAINTAINER mikebeetv
 
-RUN cd /volume1/ArkServer \
-    && touch enable_rcon
+RUN cd /volume1/ArkServer
 
 #
 # Setup the server and delete stuff you don't need
@@ -23,6 +22,7 @@ EXPOSE 27015/udp 7778/udp
 EXPOSE 32330/tcp
 
 ADD ark_server.sh /usr/local/bin/ark_server
+ADD enable_rcon /volume1/ArkServer/enable_rcon 
 
 USER ark
 VOLUME /volume1/ArkServer
