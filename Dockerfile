@@ -28,4 +28,3 @@ ADD enable_rcon /volume1/ArkServer/enable_rcon
 USER ark
 VOLUME /volume1/ArkServer
 WORKDIR /volume1/ArkServer
-CMD ["ark_server"]
