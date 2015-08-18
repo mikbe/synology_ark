@@ -2,6 +2,7 @@ FROM ubuntu:latest
 
 MAINTAINER mikebeetv
 
+RUN mkdir -p /volume1/ArkServer
 RUN cd /volume1/ArkServer
 
 #
